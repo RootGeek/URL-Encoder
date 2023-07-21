@@ -1,6 +1,6 @@
 import requests
 
-# Deine gewünschte ASCII Art
+
 ascii_art = """
  ____    ___    ___   _____   ____  _____  _____  _  __
 |  _ \  / _ \  / _ \ |_   _| / ___|| ____|| ____|| |/ /
