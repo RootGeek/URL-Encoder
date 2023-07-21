@@ -19,7 +19,7 @@ def url_decoder(url):
 
 if __name__ == "__main__":
     print(ascii_art)
-    short_url = "http://bitly.ws/?redirect=M56e"  # Beispiel für die Zwischen-URL
+    short_url = "http://bitly.ws/M5bs"  # Beispiel für die Zwischen-URL
 
     decoded_url = url_decoder(short_url)
     print("Entschlüsselter Original-Link:", decoded_url)
