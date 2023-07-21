@@ -2,7 +2,7 @@
 Dieses Python-Skript ermöglicht es, eine verkürzte URL (z. B. von einem URL-Shortener-Dienst) zu entschlüsseln und den ursprünglichen Link wiederherzustellen. Das Skript verwendet die integrierte Bibliothek "requests" in Python, um eine HEAD-Anfrage an die verkürzte URL zu senden und die Weiterleitungs-URL zu erhalten.
 
 ## Verwendung
-Speichere den Python-Code in einer Datei mit der Erweiterung ".py", z. B. "url_decoder.py".
+Speichere den Python-Code in einer Datei mit der Erweiterung ".py", z. B. "decoder.py".
 
 Stelle sicher, dass Python 3.x auf deinem Kali Linux-System installiert ist.
 
