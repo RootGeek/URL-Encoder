@@ -18,6 +18,6 @@ Hinweis: Stelle sicher, dass die verkürzte URL, die du entschlüsseln möchtest
 
 # Beispiel wie es im Terminal aussieht.
 
-Rechts befindet sich der SourceCode und rehcts ist das Terminal mit dem Ergebniss!
+Links befindet sich der Source Code und Rechts ist das Terminal mit dem Ergebniss!
 
 ![Server Seems Down](https://drive.google.com/uc?export=view&id=1NkJTgt_y9fBqS-zygo_k_s0-wJwGrIsf)
