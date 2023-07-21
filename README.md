@@ -1,21 +1,17 @@
-Funktionsweise
-Zunächst wird eine ASCII Art dargestellt, die am Anfang des Skripts definiert ist.
+# Beschreibung
+Dieses Python-Skript ermöglicht es, eine verkürzte URL (z. B. von einem URL-Shortener-Dienst) zu entschlüsseln und den ursprünglichen Link wiederherzustellen. Das Skript verwendet die integrierte Bibliothek "requests" in Python, um eine HEAD-Anfrage an die verkürzte URL zu senden und die Weiterleitungs-URL zu erhalten.
 
-Die Hauptfunktion url_decoder(url) nimmt eine verkürzte URL als Eingabe und gibt den entschlüsselten Original-Link zurück.
+## Verwendung
+Speichere den Python-Code in einer Datei mit der Erweiterung ".py", z. B. "url_decoder.py".
 
-Die Funktion url_decoder verwendet die "requests" Bibliothek, um eine HEAD-Anfrage an die verkürzte URL zu senden. Mit der Option allow_redirects=True wird sichergestellt, dass eventuelle Weiterleitungen automatisch gefolgt werden, um den endgültigen Ziel-Link zu erhalten.
+Stelle sicher, dass Python 3.x auf deinem Kali Linux-System installiert ist.
 
-Wenn die Anfrage erfolgreich ist und eine Weiterleitungs-URL vorhanden ist, wird diese URL als entschlüsselte URL zurückgegeben.
+Navigiere in der Kommandozeile zum Verzeichnis, in dem die Datei "url_decoder.py" gespeichert ist.
 
-Falls es Probleme bei der Verbindung zum Shortener-Dienst gibt (z. B. aufgrund einer fehlerhaften URL oder Netzwerkproblemen), wird eine entsprechende Fehlermeldung zurückgegeben.
+Führe das Skript aus, indem du den folgenden Befehl in der Kommandozeile ausführst:
 
-Im __name__ == "__main__"-Block wird die Hauptfunktionalität des Skripts aufgerufen. Hier wird ein Beispiel einer verkürzten URL short_url definiert und das Ergebnis der Entschlüsselung ausgegeben.
-
-Verwendung
-Speichere den obigen Python-Code in einer Datei mit der Erweiterung ".py", z. B. "url_decoder.py".
-
-Stelle sicher, dass Python 3.x auf deinem System installiert ist.
-
-Installiere die erforderliche Bibliothek "requests", falls sie noch nicht vorhanden ist.
-
-Führe das Skript aus, indem du in der Kommandozeile in das Verzeichnis navigierst, in dem die Datei gespeichert ist, und den folgenden Befehl ausführst:
+bash
+Copy code
+python url_decoder.py
+Das Skript gibt die ASCII Art aus und zeigt dann den ursprünglichen Link der verkürzten URL an.
+Hinweis: Stelle sicher, dass die verkürzte URL, die du entschlüsseln möchtest, zugänglich ist und keine weiteren Sicherheitsvorkehrungen wie Captchas oder Autorisierungsmechanismen aufweist. Andernfalls könnte die URL-Entschlüsselung fehlschlagen.
